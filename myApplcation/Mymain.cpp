@@ -27,12 +27,19 @@ void Mymain()
     MyLCD myLcd;
     myLcd.MyLCDInit();
     myLcd.MyLDshowLable();
+    myLcd.MyLCDDrawCoorDinat();
     myAdc.myADCCollectData();
     myAdc.myADCShowWaveForm();
     myFft.FFTInit(adcNum);
     myFft.FFTProcess();
+    myFft.FindFre();
+    myFft.PhaProcess();
+    myFft.DrawFFTWave();
+    myAdc.myADCCompareTheSize();
+
     myUsart.SendInt(adcNum,SIZE);
     myUsart.SendFloat(myFft.GetOutputbuf(),SIZE);
+    myUsart.SendOneFloat(myFft.GetPhase());
     for (;;) {
 
 

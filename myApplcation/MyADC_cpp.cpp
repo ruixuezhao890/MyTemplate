@@ -68,13 +68,13 @@ void MyADC::myADCShowWaveForm() {
 
     uint16_t past_vol1 = 0, pre_vol1 = 0;
     uint16_t past_vol = 0, pre_vol = 0;
-    for (uint16_t x = 0,sum=0; x < 799; x=x+5,sum++)
+    for (uint16_t x = 0,sum=0; x < 799; x=x+2,sum++)
     {
         if (sum<ADCStorageBuffSize) {
             pre_vol = ADCStorageBuff[sum] * (3.3 / 4096) * 60;
             //pre_vol1 = adcBuff2[x] * (3.3 / 4096) * 60;
             lcd_draw_line(x, 250, x, 480, WHITE);//Ë¢ÐÂ±³¾°
-            lcd_draw_bline(x, past_vol + 260, x + 5, pre_vol + 260, 1, RED);
+            lcd_draw_bline(x, past_vol + 260, x + 2, pre_vol + 260, 1, RED);
             //lcd_draw_bline(x, past_vol1 + 280, x + 1, pre_vol1 + 280, 1, RED);
             //past_vol1 = pre_vol1;
             past_vol = pre_vol;

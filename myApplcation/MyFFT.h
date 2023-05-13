@@ -31,6 +31,10 @@ public:
     float * GetOutputbuf();
     float * GetIutputbuf();
     void PhaProcess();
+    void FindMax();
+    void DrawFFTWave();
+    void FindFre();
+
     float32_t PhaProcess(MyFFT* myFFT1);
 private:
     float32_t phase_diff;

@@ -49,6 +49,7 @@ void MyFFT::PhaProcess() {
     float32_t real_part1 = fft_Inputbuf1[max_Index * 2];
     float32_t imaginary_part1 = fft_Inputbuf1[max_Index * 2 + 1];
     phase_diff =atan2f(imaginary_part1,real_part1);
+    phase_diff = phase_diff * 180.0f / 3.14159265358979323846f;
 
 }
 
@@ -69,6 +70,29 @@ float32_t MyFFT::PhaProcess(MyFFT* myFFT1) {
     if(temp>-180&&temp<180) {
         return temp;
     }
+}
+
+void MyFFT::FindMax() {
+    arm_max_f32(fft_Outputbuf1, 1024, &Fmax, &max_Index);
+
+}
+
+void MyFFT::DrawFFTWave() {
+    for (int i = 290; i < 800; i++)//画出幅值
+    {
+        lcd_draw_line(i, 0, i , 229, WHITE);         //清屏
+        lcd_draw_line(i,230-100*(fft_Outputbuf1[i-290]),i+1,230-100*(fft_Outputbuf1[i-289]),BLACK);//画线
+        //lcd_draw_line(i,230-100*(fft_outputbuf2[i-290]),i+1,230-100*(fft_outputbuf2[i-289]),RED);//画线
+    }
+}
+
+void MyFFT::FindFre() {
+    this->FindMax();
+    char temp[24];
+    int data=((100000/FFT_LENGTH)*this->max_Index);
+    sprintf(temp,"%d",data);
+    lcd_show_string(60,108,200,16,16,temp,RED);
+
 }
 
 
