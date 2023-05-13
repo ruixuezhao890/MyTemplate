@@ -32,7 +32,6 @@ void Mymain()
     myFft.FFTProcess();
     myUsart.SendInt(adcNum,SIZE);
     myUsart.SendFloat(myFft.GetOutputbuf(),SIZE);
-
     for (;;) {
 
 
