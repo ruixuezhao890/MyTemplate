@@ -26,6 +26,7 @@ void Mymain()
     MyADC myAdc(adcNum,SIZE,&htim3,&hadc1);
     MyLCD myLcd;
     myLcd.MyLCDInit();
+    myLcd.MyLDshowLable();
     myAdc.myADCCollectData();
     myAdc.myADCShowWaveForm();
     myFft.FFTInit(adcNum);

@@ -30,6 +30,9 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/myApplcation/MyADC_cpp.h" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/myApplcation/MyDAC.h" root0="SKIP_INSPECTION" />
