@@ -35,6 +35,7 @@ extern "C"
 #include "arm_const_structs.h"
 //#include "ILI93xx.h"
 void Mymain();
+void ItUsart(DMA_HandleTypeDef * hdma_usartx_rx);
 #ifdef __cplusplus
 }
 /*-------------c++-------------*/

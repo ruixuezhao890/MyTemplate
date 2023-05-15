@@ -12,6 +12,7 @@
 */
 //
 
+#include <cstdarg>
 #include "MyUsart.h"
 
 MyUsart::MyUsart()
@@ -22,14 +23,19 @@ MyUsart::MyUsart(UART_HandleTypeDef *huart)
 {
     this->huart=huart;
 }
-MyUsart::MyUsart(uint16_t Enable)
+MyUsart::MyUsart(uint16_t Enable,UART_HandleTypeDef *huart)
 {
+    this->huart=huart;
     this->ReceiveInit();
 }
 void MyUsart::ReceiveInit()
 {
-    __HAL_UART_ENABLE_IT(&huart1, UART_IT_IDLE);//使能idle中断
-    HAL_UART_Receive_DMA(&huart1, re_Buff, RELENTH);
+    for (int i = 0; i < RELENTH; ++i) {
+        re_Buff[i]=' ';
+    }
+
+    __HAL_UART_ENABLE_IT(this->huart, UART_IT_IDLE);//使能idle中断
+    HAL_UART_Receive_DMA(this->huart, re_Buff, RELENTH);
 }
 void MyUsart::Send(uint8_t * sendBuf)
 {
@@ -79,19 +85,19 @@ void MyUsart::SendFloat(float* FloatBuf,uint16_t Length)
     }
 }
 
-//放入"stm32f4xx_it.c文件中USART1_IRQHandler(void)内
-void MyUsart::ReceiveDataCallBack(DMA_HandleTypeDef * hdma_usart1_rx)
+//放入"stm32f4xx_it.c文件中USARTx_IRQHandler(void)内
+void MyUsart::ReceiveDataCallBack(DMA_HandleTypeDef * hdma_usartx_rx)
 {
     uint32_t tmp_flag = 0;
     uint32_t temp;
-    tmp_flag =__HAL_UART_GET_FLAG(&huart1,UART_FLAG_IDLE); //获取IDLE标志位
+    tmp_flag =__HAL_UART_GET_FLAG(this->huart,UART_FLAG_IDLE); //获取IDLE标志位
     if((tmp_flag != RESET))//idle标志被置位
     {
-        __HAL_UART_CLEAR_IDLEFLAG(&huart1);//清除标志位
-        temp = huart1.Instance->SR;  //清除状态寄存器SR,读取SR寄存器可以实现清除SR寄存器的功能
-        temp = huart1.Instance->DR; //读取数据寄存器中的数据
-        HAL_UART_DMAStop(&huart1); //
-        temp  = __HAL_DMA_GET_COUNTER(hdma_usart1_rx); // 获取DMA中未传输的数据个数，NDTR寄存器分析见下面
+        __HAL_UART_CLEAR_IDLEFLAG(this->huart);//清除标志位
+        temp = huart->Instance->SR;  //清除状态寄存器SR,读取SR寄存器可以实现清除SR寄存器的功能
+        temp = huart->Instance->DR; //读取数据寄存器中的数据
+        HAL_UART_DMAStop(this->huart); //
+        temp  = __HAL_DMA_GET_COUNTER(hdma_usartx_rx); // 获取DMA中未传输的数据个数，NDTR寄存器分析见下面
         re_len = RELENTH - temp; //总计数减去未传输的数据个数，得到已经接收的数据个数
         recv_end_flag = 1;	// 接受完成标志位置1
     }
@@ -113,8 +119,53 @@ void MyUsart::SendReceive()
         recv_end_flag=0;//清除接收结束标志位
     }
 
-    HAL_UART_Receive_DMA(&huart1, re_Buff, RELENTH);
+    HAL_UART_Receive_DMA(this->huart, re_Buff, RELENTH);
 }
 MyUsart::~MyUsart() {
 
 }
+
+void MyUsart::SendCmdOut(char *fmt, ...) {
+    va_list ap;
+    uint16_t len;
+
+    va_start(ap, fmt);
+    vsprintf((char *)tx_Buff, fmt, ap);
+    va_end(ap);
+
+    len = strlen((const char *)tx_Buff);
+    HAL_UART_Transmit(this->huart, tx_Buff, len, HAL_MAX_DELAY);
+}
+
+uint8_t *MyUsart::Re_GetData() {
+    if (this->recv_end_flag==1)
+    {
+        this->recv_end_flag=0;
+        return this->re_Buff;
+    }
+    else
+    {
+        return NULL;
+    }
+
+}
+
+uint8_t *MyUsart::ReceiveAgain() {
+
+    HAL_UART_Receive_DMA(this->huart, re_Buff, RELENTH);
+    for (int i = 0; i < RELENTH; ++i) {
+        temp[i]=re_Buff[i];
+        re_Buff[i]=' ';
+    }
+    return temp;
+
+}
+
+uint8_t MyUsart::GetRECV() {
+    return this->recv_end_flag;
+}
+
+uint8_t MyUsart::GetRecvLenth() {
+    return this->re_len;
+}
+
