@@ -125,7 +125,7 @@ MyUsart::~MyUsart() {
 
 }
 
-void MyUsart::SendCmdOut(char *fmt, ...) {
+void MyUsart::SendCmdOut(char * fmt, ...) {
     va_list ap;
     uint16_t len;
 
@@ -167,5 +167,17 @@ uint8_t MyUsart::GetRECV() {
 
 uint8_t MyUsart::GetRecvLenth() {
     return this->re_len;
+}
+
+void MyUsart::Myprintf(char *fmt, ...) {
+    va_list ap;
+    uint16_t len;
+
+    va_start(ap, fmt);
+    vsprintf((char *)tx_Buff, fmt, ap);
+    va_end(ap);
+
+    len = strlen((const char *)tx_Buff);
+    HAL_UART_Transmit(this->huart, tx_Buff, len, HAL_MAX_DELAY);
 }
 

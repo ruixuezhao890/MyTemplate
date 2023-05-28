@@ -42,9 +42,10 @@ public:
     void SendInt(uint16_t* IntBuf,uint16_t Length);
     void SendOneFloat(float FloatBuf);
     void SendFloat(float *FloatBuf,uint16_t Length);
-   void ReceiveDataCallBack(DMA_HandleTypeDef * hdma_usart1_rx);
+   void ReceiveDataCallBack(DMA_HandleTypeDef * hdma_usartx_rx);
     void SendReceive();
     void SendCmdOut(char *fmt,...);
+    void Myprintf(char *fmt,...);
     uint8_t * Re_GetData();
     uint8_t  GetRECV();
     uint8_t  GetRecvLenth();
