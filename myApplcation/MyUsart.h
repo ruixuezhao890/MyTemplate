@@ -17,7 +17,7 @@
 
 
 
-#define RELENTH 256
+
 #ifdef __cplusplus
 
 extern "C"
@@ -25,7 +25,8 @@ extern "C"
 #endif
 #include "Myapplication.h"
 //#include "IncludeALL.h"
-#define UART_RX_BUF_SIZE 200
+#define RELENTH 256
+#define UART_RX_BUF_SIZE 256
 /*______________________类的声明在这下面________________:*/
 class MyUsart{
 public:

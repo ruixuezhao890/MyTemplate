@@ -17,10 +17,10 @@
  uint8_t    recv_end_flag=0;
 uint8_t     re_Buff[200];
 //先使用初始化
-void ReceiveInit()
+void ReceiveInit(UART_HandleTypeDef *huart)
 {
-    __HAL_UART_ENABLE_IT(&huart1, UART_IT_IDLE);//使能idle中断
-    HAL_UART_Receive_DMA(&huart1, re_Buff, RELENTH);
+    __HAL_UART_ENABLE_IT(huart, UART_IT_IDLE);//使能idle中断
+    HAL_UART_Receive_DMA(huart, re_Buff, RELENTH);
 }
 
 void SendReceive(UART_HandleTypeDef *huart)

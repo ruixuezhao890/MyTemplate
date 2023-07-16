@@ -17,9 +17,19 @@
 #include "main.h"
 #include "stdio.h"
 #include "usart.h"
+#define UART_RX_BUF_SIZE 200
 #define RELENTH 256
 #include "string.h"
-void ReceiveInit();
+
+//typedef struct {
+//    UART_HandleTypeDef *huart;
+//    uint8_t   re_len=0;
+//    uint8_t   recv_end_flag=0;
+//    uint8_t   tx_Buff[UART_RX_BUF_SIZE];
+//    uint8_t   re_Buff[UART_RX_BUF_SIZE];
+//    uint8_t   temp[RELENTH];
+//}MyUsart;
+void ReceiveInit(UART_HandleTypeDef *huart);
 void Send(uint8_t * sendBuf,UART_HandleTypeDef *huart);
 void SendString(uint8_t * stringBuf,uint16_t Length,UART_HandleTypeDef *huart);
 void SendOneInt(uint16_t IntBuf,UART_HandleTypeDef *huart);

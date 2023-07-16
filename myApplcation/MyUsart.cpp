@@ -28,12 +28,20 @@ MyUsart::MyUsart(uint16_t Enable,UART_HandleTypeDef *huart)
     this->huart=huart;
     this->ReceiveInit();
 }
+/***************************************************************
+  *  @brief     函数作用 是能空闲中断接收不定长的数据
+  *  @param     参数   无
+  *  @note      备注 ： 在接受前必须先调用该函数
+  *  @Sample usage:     函数的使用方法 ：直接调用
+   * @author     wangzibo
+ **************************************************************/
+
 void MyUsart::ReceiveInit()
 {
-    for (int i = 0; i < RELENTH; ++i) {
-        re_Buff[i]=' ';
-    }
-
+//    for (int i = 0; i < RELENTH; ++i) {
+//        re_Buff[i]=' ';
+//    }
+    memset(this->re_Buff,0,RELENTH);
     __HAL_UART_ENABLE_IT(this->huart, UART_IT_IDLE);//使能idle中断
     HAL_UART_Receive_DMA(this->huart, re_Buff, RELENTH);
 }
@@ -140,7 +148,7 @@ void MyUsart::SendCmdOut(char * fmt, ...) {
 uint8_t *MyUsart::Re_GetData() {
     if (this->recv_end_flag==1)
     {
-        this->recv_end_flag=0;
+
         return this->re_Buff;
     }
     else
@@ -152,11 +160,15 @@ uint8_t *MyUsart::Re_GetData() {
 
 uint8_t *MyUsart::ReceiveAgain() {
 
+
+//    for (int i = 0; i < RELENTH; ++i) {
+//        temp[i]=re_Buff[i];
+//        re_Buff[i]=' ';
+//    }
+    memcpy(this->temp,this->re_Buff,RELENTH);
+    memset(this->re_Buff,0,RELENTH);
+    this->recv_end_flag=0;
     HAL_UART_Receive_DMA(this->huart, re_Buff, RELENTH);
-    for (int i = 0; i < RELENTH; ++i) {
-        temp[i]=re_Buff[i];
-        re_Buff[i]=' ';
-    }
     return temp;
 
 }

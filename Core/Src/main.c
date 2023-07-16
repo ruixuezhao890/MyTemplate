@@ -102,6 +102,7 @@ int main(void)
   MX_TIM3_Init();
   MX_DAC_Init();
   MX_USART3_UART_Init();
+  MX_ADC2_Init();
   /* USER CODE BEGIN 2 */
 
 
