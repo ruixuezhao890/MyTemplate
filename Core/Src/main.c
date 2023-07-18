@@ -47,12 +47,14 @@
 /* Private macro -------------------------------------------------------------*/
 /* USER CODE BEGIN PM */
 #define SIZE 1024
+//#define SIZEMAX 20480
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-
+//uint8_t receiveAll [SIZEMAX];
+//uint16_t arraycopy[2048];
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -73,8 +75,7 @@ void SystemClock_Config(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-    uint16_t adc[10]={1,2,3};
-    float  num[9]={0.32,34.23};
+
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -103,11 +104,13 @@ int main(void)
   MX_DAC_Init();
   MX_USART3_UART_Init();
   MX_ADC2_Init();
+  MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
 
-
+//    memset(receiveAll,0,SIZEMAX);
+//    HAL_UART_Receive_DMA(&huart3,receiveAll,SIZEMAX);
     //TFTLCD_Init();
-    Mymain();
+       Mymain();
 
   /* USER CODE END 2 */
 
@@ -115,6 +118,8 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+
+
       //SendReceive(&huart1);
     /* USER CODE END WHILE */
 

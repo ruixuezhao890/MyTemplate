@@ -157,6 +157,8 @@ CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyBlueTooth.cpp.obj: \
  D:\myLib\My\ development\ template\templateDevelopment\Core\Inc/dac.h \
  D:\myLib\My\ development\ template\templateDevelopment\Core\Inc/adc.h \
  D:\myLib\My\ development\ template\templateDevelopment\Core\Inc/tim.h \
+ d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\malloc.h \
+ d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\machine\malloc.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\string.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\strings.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\string.h \

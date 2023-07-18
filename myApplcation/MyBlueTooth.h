@@ -47,6 +47,7 @@ public:
     ~MyBlueTooth();
 
     void SendString(uint8_t* SendData);
+    void SendString(char* SendData);
     void SendOneChannel(uint16_t *SendData,uint16_t DataSize);
     void SendOneChannel(float32_t *SendData,uint16_t DataSize);
     void SendTwoChannel(uint16_t *SendData0,uint16_t *SendData1,uint16_t DataSize);

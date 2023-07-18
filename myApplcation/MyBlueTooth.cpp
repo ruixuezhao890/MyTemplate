@@ -10,7 +10,7 @@
 *********************************************************************
 *********
 */
-//
+
 
 #include "MyBlueTooth.h"
 
@@ -29,11 +29,15 @@ void MyBlueTooth::SendString(uint8_t* SendData) {
         this->BlueUsart->Myprintf("%s",SendData);
 
 }
+void MyBlueTooth::SendString(char *SendData) {
+    this->BlueUsart->Myprintf("%s",SendData);
+}
 
 void MyBlueTooth::SendOneChannel(uint16_t *SendData, uint16_t DataSize) {
     if (DataSize>1000){
         return;
     }
+    this->BlueUsart->Myprintf("*GC*");
     for (int i = 0; i < DataSize; ++i) {
         this->BlueUsart->Myprintf("G%d,0*",SendData[i]);
     }
@@ -43,6 +47,7 @@ void MyBlueTooth::SendOneChannel(float32_t *SendData, uint16_t DataSize) {
     if (DataSize>1000){
         return;
     }
+    this->BlueUsart->Myprintf("*GC*");
     for (int i = 0; i < DataSize; ++i) {
         this->BlueUsart->Myprintf("G%f,0*",SendData[i]);
     }
@@ -52,6 +57,7 @@ void MyBlueTooth::SendTwoChannel(uint16_t *SendData0,uint16_t *SendData1, uint16
     if (DataSize>1000){
         return;
     }
+    this->BlueUsart->Myprintf("*GC*");
     for (int i = 0; i < DataSize; ++i) {
         this->BlueUsart->Myprintf("*G%d,%d*",SendData0[i],SendData1[i]);
     }
@@ -61,6 +67,7 @@ void MyBlueTooth::SendTwoChannel(float32_t *SendData0,float32_t *SendData1, uint
     if (DataSize>1000){
         return;
     }
+    this->BlueUsart->Myprintf("*GC*");
     for (int i = 0; i < DataSize; ++i) {
         this->BlueUsart->Myprintf("*G%f,%f*",SendData0[i],SendData1[i]);
     }
@@ -71,9 +78,8 @@ void MyBlueTooth::SendTwoChannel(float32_t *SendData0,float32_t *SendData1, uint
     }
 }
 
-void MyBlueTooth::SendTwoChannel(float32_t *SendData0, float32_t *SendData1, uint16_t DataSize0, uint16_t DataSize1) {
-
-}*//***************************************************************
+*//**
+ *************************************************************
   *  @brief     函数作用 此函数接收外部的指令做出对应的操作
   *  @param     参数   RecCmd:这是做出判断的指令
   *                    第二个参数时函数指针 即接收对应指令做出对应操作的函数
@@ -132,3 +138,5 @@ void MyBlueTooth::ReceiveCmdSlot(std::string RecCmd, void (*funcPtr)(uint16_t, u
                                  uint16_t Parameters1) {
 
 }
+
+

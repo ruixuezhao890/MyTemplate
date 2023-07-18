@@ -711,10 +711,24 @@ CMakeFiles/templateDevelopment.elf.dir/LCD/lcd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/templateDevelopment.elf.dir/LCD/lcd.c.s"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\myLib\My development template\templateDevelopment\LCD\lcd.c" -o CMakeFiles\templateDevelopment.elf.dir\LCD\lcd.c.s
 
+CMakeFiles/templateDevelopment.elf.dir/myApplcation/_DataProcessing.cpp.obj: CMakeFiles/templateDevelopment.elf.dir/flags.make
+CMakeFiles/templateDevelopment.elf.dir/myApplcation/_DataProcessing.cpp.obj: ../myApplcation/\ DataProcessing.cpp
+CMakeFiles/templateDevelopment.elf.dir/myApplcation/_DataProcessing.cpp.obj: CMakeFiles/templateDevelopment.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\myLib\My development template\templateDevelopment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/templateDevelopment.elf.dir/myApplcation/_DataProcessing.cpp.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/templateDevelopment.elf.dir/myApplcation/_DataProcessing.cpp.obj -MF CMakeFiles\templateDevelopment.elf.dir\myApplcation\_DataProcessing.cpp.obj.d -o CMakeFiles\templateDevelopment.elf.dir\myApplcation\_DataProcessing.cpp.obj -c "D:\myLib\My development template\templateDevelopment\myApplcation\ DataProcessing.cpp"
+
+CMakeFiles/templateDevelopment.elf.dir/myApplcation/_DataProcessing.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/templateDevelopment.elf.dir/myApplcation/_DataProcessing.cpp.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\myLib\My development template\templateDevelopment\myApplcation\ DataProcessing.cpp" > CMakeFiles\templateDevelopment.elf.dir\myApplcation\_DataProcessing.cpp.i
+
+CMakeFiles/templateDevelopment.elf.dir/myApplcation/_DataProcessing.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/templateDevelopment.elf.dir/myApplcation/_DataProcessing.cpp.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\myLib\My development template\templateDevelopment\myApplcation\ DataProcessing.cpp" -o CMakeFiles\templateDevelopment.elf.dir\myApplcation\_DataProcessing.cpp.s
+
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/ESP.cpp.obj: CMakeFiles/templateDevelopment.elf.dir/flags.make
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/ESP.cpp.obj: ../myApplcation/ESP.cpp
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/ESP.cpp.obj: CMakeFiles/templateDevelopment.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\myLib\My development template\templateDevelopment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/templateDevelopment.elf.dir/myApplcation/ESP.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\myLib\My development template\templateDevelopment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/templateDevelopment.elf.dir/myApplcation/ESP.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/templateDevelopment.elf.dir/myApplcation/ESP.cpp.obj -MF CMakeFiles\templateDevelopment.elf.dir\myApplcation\ESP.cpp.obj.d -o CMakeFiles\templateDevelopment.elf.dir\myApplcation\ESP.cpp.obj -c "D:\myLib\My development template\templateDevelopment\myApplcation\ESP.cpp"
 
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/ESP.cpp.i: cmake_force
@@ -728,7 +742,7 @@ CMakeFiles/templateDevelopment.elf.dir/myApplcation/ESP.cpp.s: cmake_force
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/LED.cpp.obj: CMakeFiles/templateDevelopment.elf.dir/flags.make
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/LED.cpp.obj: ../myApplcation/LED.cpp
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/LED.cpp.obj: CMakeFiles/templateDevelopment.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\myLib\My development template\templateDevelopment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/templateDevelopment.elf.dir/myApplcation/LED.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\myLib\My development template\templateDevelopment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/templateDevelopment.elf.dir/myApplcation/LED.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/templateDevelopment.elf.dir/myApplcation/LED.cpp.obj -MF CMakeFiles\templateDevelopment.elf.dir\myApplcation\LED.cpp.obj.d -o CMakeFiles\templateDevelopment.elf.dir\myApplcation\LED.cpp.obj -c "D:\myLib\My development template\templateDevelopment\myApplcation\LED.cpp"
 
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/LED.cpp.i: cmake_force
@@ -742,7 +756,7 @@ CMakeFiles/templateDevelopment.elf.dir/myApplcation/LED.cpp.s: cmake_force
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyADC_cpp.cpp.obj: CMakeFiles/templateDevelopment.elf.dir/flags.make
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyADC_cpp.cpp.obj: ../myApplcation/MyADC_cpp.cpp
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyADC_cpp.cpp.obj: CMakeFiles/templateDevelopment.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\myLib\My development template\templateDevelopment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyADC_cpp.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\myLib\My development template\templateDevelopment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyADC_cpp.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyADC_cpp.cpp.obj -MF CMakeFiles\templateDevelopment.elf.dir\myApplcation\MyADC_cpp.cpp.obj.d -o CMakeFiles\templateDevelopment.elf.dir\myApplcation\MyADC_cpp.cpp.obj -c "D:\myLib\My development template\templateDevelopment\myApplcation\MyADC_cpp.cpp"
 
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyADC_cpp.cpp.i: cmake_force
@@ -756,7 +770,7 @@ CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyADC_cpp.cpp.s: cmake_force
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyBlueTooth.cpp.obj: CMakeFiles/templateDevelopment.elf.dir/flags.make
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyBlueTooth.cpp.obj: ../myApplcation/MyBlueTooth.cpp
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyBlueTooth.cpp.obj: CMakeFiles/templateDevelopment.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\myLib\My development template\templateDevelopment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyBlueTooth.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\myLib\My development template\templateDevelopment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyBlueTooth.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyBlueTooth.cpp.obj -MF CMakeFiles\templateDevelopment.elf.dir\myApplcation\MyBlueTooth.cpp.obj.d -o CMakeFiles\templateDevelopment.elf.dir\myApplcation\MyBlueTooth.cpp.obj -c "D:\myLib\My development template\templateDevelopment\myApplcation\MyBlueTooth.cpp"
 
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyBlueTooth.cpp.i: cmake_force
@@ -770,7 +784,7 @@ CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyBlueTooth.cpp.s: cmake_for
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyDAC.cpp.obj: CMakeFiles/templateDevelopment.elf.dir/flags.make
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyDAC.cpp.obj: ../myApplcation/MyDAC.cpp
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyDAC.cpp.obj: CMakeFiles/templateDevelopment.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\myLib\My development template\templateDevelopment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyDAC.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\myLib\My development template\templateDevelopment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyDAC.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyDAC.cpp.obj -MF CMakeFiles\templateDevelopment.elf.dir\myApplcation\MyDAC.cpp.obj.d -o CMakeFiles\templateDevelopment.elf.dir\myApplcation\MyDAC.cpp.obj -c "D:\myLib\My development template\templateDevelopment\myApplcation\MyDAC.cpp"
 
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyDAC.cpp.i: cmake_force
@@ -784,7 +798,7 @@ CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyDAC.cpp.s: cmake_force
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyFFT.cpp.obj: CMakeFiles/templateDevelopment.elf.dir/flags.make
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyFFT.cpp.obj: ../myApplcation/MyFFT.cpp
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyFFT.cpp.obj: CMakeFiles/templateDevelopment.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\myLib\My development template\templateDevelopment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyFFT.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\myLib\My development template\templateDevelopment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyFFT.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyFFT.cpp.obj -MF CMakeFiles\templateDevelopment.elf.dir\myApplcation\MyFFT.cpp.obj.d -o CMakeFiles\templateDevelopment.elf.dir\myApplcation\MyFFT.cpp.obj -c "D:\myLib\My development template\templateDevelopment\myApplcation\MyFFT.cpp"
 
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyFFT.cpp.i: cmake_force
@@ -798,7 +812,7 @@ CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyFFT.cpp.s: cmake_force
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyKey.cpp.obj: CMakeFiles/templateDevelopment.elf.dir/flags.make
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyKey.cpp.obj: ../myApplcation/MyKey.cpp
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyKey.cpp.obj: CMakeFiles/templateDevelopment.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\myLib\My development template\templateDevelopment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyKey.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\myLib\My development template\templateDevelopment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyKey.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyKey.cpp.obj -MF CMakeFiles\templateDevelopment.elf.dir\myApplcation\MyKey.cpp.obj.d -o CMakeFiles\templateDevelopment.elf.dir\myApplcation\MyKey.cpp.obj -c "D:\myLib\My development template\templateDevelopment\myApplcation\MyKey.cpp"
 
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyKey.cpp.i: cmake_force
@@ -812,7 +826,7 @@ CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyKey.cpp.s: cmake_force
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyLCD.cpp.obj: CMakeFiles/templateDevelopment.elf.dir/flags.make
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyLCD.cpp.obj: ../myApplcation/MyLCD.cpp
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyLCD.cpp.obj: CMakeFiles/templateDevelopment.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\myLib\My development template\templateDevelopment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyLCD.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\myLib\My development template\templateDevelopment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyLCD.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyLCD.cpp.obj -MF CMakeFiles\templateDevelopment.elf.dir\myApplcation\MyLCD.cpp.obj.d -o CMakeFiles\templateDevelopment.elf.dir\myApplcation\MyLCD.cpp.obj -c "D:\myLib\My development template\templateDevelopment\myApplcation\MyLCD.cpp"
 
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyLCD.cpp.i: cmake_force
@@ -826,7 +840,7 @@ CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyLCD.cpp.s: cmake_force
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/MySchedule.cpp.obj: CMakeFiles/templateDevelopment.elf.dir/flags.make
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/MySchedule.cpp.obj: ../myApplcation/MySchedule.cpp
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/MySchedule.cpp.obj: CMakeFiles/templateDevelopment.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\myLib\My development template\templateDevelopment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/templateDevelopment.elf.dir/myApplcation/MySchedule.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\myLib\My development template\templateDevelopment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/templateDevelopment.elf.dir/myApplcation/MySchedule.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/templateDevelopment.elf.dir/myApplcation/MySchedule.cpp.obj -MF CMakeFiles\templateDevelopment.elf.dir\myApplcation\MySchedule.cpp.obj.d -o CMakeFiles\templateDevelopment.elf.dir\myApplcation\MySchedule.cpp.obj -c "D:\myLib\My development template\templateDevelopment\myApplcation\MySchedule.cpp"
 
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/MySchedule.cpp.i: cmake_force
@@ -840,7 +854,7 @@ CMakeFiles/templateDevelopment.elf.dir/myApplcation/MySchedule.cpp.s: cmake_forc
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyUsart.cpp.obj: CMakeFiles/templateDevelopment.elf.dir/flags.make
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyUsart.cpp.obj: ../myApplcation/MyUsart.cpp
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyUsart.cpp.obj: CMakeFiles/templateDevelopment.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\myLib\My development template\templateDevelopment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyUsart.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\myLib\My development template\templateDevelopment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyUsart.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyUsart.cpp.obj -MF CMakeFiles\templateDevelopment.elf.dir\myApplcation\MyUsart.cpp.obj.d -o CMakeFiles\templateDevelopment.elf.dir\myApplcation\MyUsart.cpp.obj -c "D:\myLib\My development template\templateDevelopment\myApplcation\MyUsart.cpp"
 
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyUsart.cpp.i: cmake_force
@@ -854,7 +868,7 @@ CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyUsart.cpp.s: cmake_force
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/Mymain.cpp.obj: CMakeFiles/templateDevelopment.elf.dir/flags.make
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/Mymain.cpp.obj: ../myApplcation/Mymain.cpp
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/Mymain.cpp.obj: CMakeFiles/templateDevelopment.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\myLib\My development template\templateDevelopment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/templateDevelopment.elf.dir/myApplcation/Mymain.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\myLib\My development template\templateDevelopment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/templateDevelopment.elf.dir/myApplcation/Mymain.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/templateDevelopment.elf.dir/myApplcation/Mymain.cpp.obj -MF CMakeFiles\templateDevelopment.elf.dir\myApplcation\Mymain.cpp.obj.d -o CMakeFiles\templateDevelopment.elf.dir\myApplcation\Mymain.cpp.obj -c "D:\myLib\My development template\templateDevelopment\myApplcation\Mymain.cpp"
 
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/Mymain.cpp.i: cmake_force
@@ -868,7 +882,7 @@ CMakeFiles/templateDevelopment.elf.dir/myApplcation/Mymain.cpp.s: cmake_force
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/myAdc.c.obj: CMakeFiles/templateDevelopment.elf.dir/flags.make
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/myAdc.c.obj: ../myApplcation/myAdc.c
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/myAdc.c.obj: CMakeFiles/templateDevelopment.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\myLib\My development template\templateDevelopment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/templateDevelopment.elf.dir/myApplcation/myAdc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\myLib\My development template\templateDevelopment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/templateDevelopment.elf.dir/myApplcation/myAdc.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/templateDevelopment.elf.dir/myApplcation/myAdc.c.obj -MF CMakeFiles\templateDevelopment.elf.dir\myApplcation\myAdc.c.obj.d -o CMakeFiles\templateDevelopment.elf.dir\myApplcation\myAdc.c.obj -c "D:\myLib\My development template\templateDevelopment\myApplcation\myAdc.c"
 
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/myAdc.c.i: cmake_force
@@ -882,7 +896,7 @@ CMakeFiles/templateDevelopment.elf.dir/myApplcation/myAdc.c.s: cmake_force
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/seriall_Port.c.obj: CMakeFiles/templateDevelopment.elf.dir/flags.make
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/seriall_Port.c.obj: ../myApplcation/seriall_Port.c
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/seriall_Port.c.obj: CMakeFiles/templateDevelopment.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\myLib\My development template\templateDevelopment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/templateDevelopment.elf.dir/myApplcation/seriall_Port.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\myLib\My development template\templateDevelopment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/templateDevelopment.elf.dir/myApplcation/seriall_Port.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/templateDevelopment.elf.dir/myApplcation/seriall_Port.c.obj -MF CMakeFiles\templateDevelopment.elf.dir\myApplcation\seriall_Port.c.obj.d -o CMakeFiles\templateDevelopment.elf.dir\myApplcation\seriall_Port.c.obj -c "D:\myLib\My development template\templateDevelopment\myApplcation\seriall_Port.c"
 
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/seriall_Port.c.i: cmake_force
@@ -941,6 +955,7 @@ templateDevelopment_elf_OBJECTS = \
 "CMakeFiles/templateDevelopment.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj" \
 "CMakeFiles/templateDevelopment.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj" \
 "CMakeFiles/templateDevelopment.elf.dir/LCD/lcd.c.obj" \
+"CMakeFiles/templateDevelopment.elf.dir/myApplcation/_DataProcessing.cpp.obj" \
 "CMakeFiles/templateDevelopment.elf.dir/myApplcation/ESP.cpp.obj" \
 "CMakeFiles/templateDevelopment.elf.dir/myApplcation/LED.cpp.obj" \
 "CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyADC_cpp.cpp.obj" \
@@ -1004,6 +1019,7 @@ templateDevelopment.elf: CMakeFiles/templateDevelopment.elf.dir/Drivers/STM32F4x
 templateDevelopment.elf: CMakeFiles/templateDevelopment.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj
 templateDevelopment.elf: CMakeFiles/templateDevelopment.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj
 templateDevelopment.elf: CMakeFiles/templateDevelopment.elf.dir/LCD/lcd.c.obj
+templateDevelopment.elf: CMakeFiles/templateDevelopment.elf.dir/myApplcation/_DataProcessing.cpp.obj
 templateDevelopment.elf: CMakeFiles/templateDevelopment.elf.dir/myApplcation/ESP.cpp.obj
 templateDevelopment.elf: CMakeFiles/templateDevelopment.elf.dir/myApplcation/LED.cpp.obj
 templateDevelopment.elf: CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyADC_cpp.cpp.obj
@@ -1021,7 +1037,7 @@ templateDevelopment.elf: CMakeFiles/templateDevelopment.elf.dir/build.make
 templateDevelopment.elf: ../Middlewares/ST/ARM/DSP/Lib/libarm_cortexM4lf_math.a
 templateDevelopment.elf: CMakeFiles/templateDevelopment.elf.dir/objects1.rsp
 templateDevelopment.elf: CMakeFiles/templateDevelopment.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\myLib\My development template\templateDevelopment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_60) "Linking CXX executable templateDevelopment.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\myLib\My development template\templateDevelopment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_61) "Linking CXX executable templateDevelopment.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\templateDevelopment.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/myLib/My development template/templateDevelopment/cmake-build-debug/templateDevelopment.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/myLib/My development template/templateDevelopment/cmake-build-debug/templateDevelopment.bin"

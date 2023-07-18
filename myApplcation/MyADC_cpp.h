@@ -32,7 +32,7 @@ public:
 
     void myADCCollectData();
 
-   // void myADCDataSend();
+    void myADCDataSend();
 
     void myADCCompareTheSize();
 

@@ -26,6 +26,7 @@ extern "C"
 #include "adc.h"
 #include "tim.h"
 
+#include "malloc.h"
 #include "string.h"
 #include "stdio.h"
 #include "lcd.h"

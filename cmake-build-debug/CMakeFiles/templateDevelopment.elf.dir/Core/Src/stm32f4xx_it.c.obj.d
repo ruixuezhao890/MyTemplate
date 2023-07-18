@@ -82,6 +82,8 @@ CMakeFiles/templateDevelopment.elf.dir/Core/Src/stm32f4xx_it.c.obj: \
  D:\myLib\My\ development\ template\templateDevelopment\Core\Inc/dac.h \
  D:\myLib\My\ development\ template\templateDevelopment\Core\Inc/adc.h \
  D:\myLib\My\ development\ template\templateDevelopment\Core\Inc/tim.h \
+ d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\malloc.h \
+ d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\machine\malloc.h \
  D:\myLib\My\ development\ template\templateDevelopment\LCD/lcd.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\stdlib.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\machine\stdlib.h \

@@ -1480,6 +1480,30 @@ myApplcation/Mymain.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\templateDevelopment.elf.dir\build.make CMakeFiles/templateDevelopment.elf.dir/myApplcation/Mymain.cpp.s
 .PHONY : myApplcation/Mymain.cpp.s
 
+myApplcation/_DataProcessing.obj: myApplcation/_DataProcessing.cpp.obj
+.PHONY : myApplcation/_DataProcessing.obj
+
+# target to build an object file
+myApplcation/_DataProcessing.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\templateDevelopment.elf.dir\build.make CMakeFiles/templateDevelopment.elf.dir/myApplcation/_DataProcessing.cpp.obj
+.PHONY : myApplcation/_DataProcessing.cpp.obj
+
+myApplcation/_DataProcessing.i: myApplcation/_DataProcessing.cpp.i
+.PHONY : myApplcation/_DataProcessing.i
+
+# target to preprocess a source file
+myApplcation/_DataProcessing.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\templateDevelopment.elf.dir\build.make CMakeFiles/templateDevelopment.elf.dir/myApplcation/_DataProcessing.cpp.i
+.PHONY : myApplcation/_DataProcessing.cpp.i
+
+myApplcation/_DataProcessing.s: myApplcation/_DataProcessing.cpp.s
+.PHONY : myApplcation/_DataProcessing.s
+
+# target to generate assembly for a file
+myApplcation/_DataProcessing.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\templateDevelopment.elf.dir\build.make CMakeFiles/templateDevelopment.elf.dir/myApplcation/_DataProcessing.cpp.s
+.PHONY : myApplcation/_DataProcessing.cpp.s
+
 myApplcation/myAdc.obj: myApplcation/myAdc.c.obj
 .PHONY : myApplcation/myAdc.obj
 
@@ -1706,6 +1730,9 @@ help:
 	@echo ... myApplcation/Mymain.obj
 	@echo ... myApplcation/Mymain.i
 	@echo ... myApplcation/Mymain.s
+	@echo ... myApplcation/_DataProcessing.obj
+	@echo ... myApplcation/_DataProcessing.i
+	@echo ... myApplcation/_DataProcessing.s
 	@echo ... myApplcation/myAdc.obj
 	@echo ... myApplcation/myAdc.i
 	@echo ... myApplcation/myAdc.s

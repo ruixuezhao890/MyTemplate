@@ -112,6 +112,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyUsart.cpp.obj.d"
   "CMakeFiles/templateDevelopment.elf.dir/myApplcation/Mymain.cpp.obj"
   "CMakeFiles/templateDevelopment.elf.dir/myApplcation/Mymain.cpp.obj.d"
+  "CMakeFiles/templateDevelopment.elf.dir/myApplcation/_DataProcessing.cpp.obj"
+  "CMakeFiles/templateDevelopment.elf.dir/myApplcation/_DataProcessing.cpp.obj.d"
   "CMakeFiles/templateDevelopment.elf.dir/myApplcation/myAdc.c.obj"
   "CMakeFiles/templateDevelopment.elf.dir/myApplcation/myAdc.c.obj.d"
   "CMakeFiles/templateDevelopment.elf.dir/myApplcation/seriall_Port.c.obj"

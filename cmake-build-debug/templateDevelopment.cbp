@@ -522,6 +522,12 @@
 		<Unit filename="D:/myLib/My development template/templateDevelopment/STM32F407ZGTX_FLASH.ld">
 			<Option target="templateDevelopment.elf"/>
 		</Unit>
+		<Unit filename="D:/myLib/My development template/templateDevelopment/myApplcation/ DataProcessing.cpp">
+			<Option target="templateDevelopment.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/My development template/templateDevelopment/myApplcation/ DataProcessing.h">
+			<Option target="templateDevelopment.elf"/>
+		</Unit>
 		<Unit filename="D:/myLib/My development template/templateDevelopment/myApplcation/ESP.cpp">
 			<Option target="templateDevelopment.elf"/>
 		</Unit>

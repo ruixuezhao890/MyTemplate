@@ -767,16 +767,18 @@ CMakeFiles/templateDevelopment.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c \
   ../Core/Inc/gpio.h \
   ../Core/Inc/fsmc.h \
   ../myApplcation/Myapplication.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/malloc.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/newlib.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/config.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/reent.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_types.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_types.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/lock.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/malloc.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/strings.h \
@@ -944,6 +946,8 @@ CMakeFiles/templateDevelopment.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Core/Src/
   ../Core/Inc/dac.h \
   ../Core/Inc/adc.h \
   ../Core/Inc/tim.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/malloc.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/malloc.h \
   ../LCD/lcd.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdlib.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/stdlib.h \
@@ -2276,16 +2280,18 @@ CMakeFiles/templateDevelopment.elf.dir/myApplcation/ESP.cpp.obj: ../myApplcation
   ../Core/Inc/dac.h \
   ../Core/Inc/adc.h \
   ../Core/Inc/tim.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/malloc.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/newlib.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/config.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/reent.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_types.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_types.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/lock.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/malloc.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/strings.h \
@@ -2417,16 +2423,18 @@ CMakeFiles/templateDevelopment.elf.dir/myApplcation/LED.cpp.obj: ../myApplcation
   ../Core/Inc/dac.h \
   ../Core/Inc/adc.h \
   ../Core/Inc/tim.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/malloc.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/newlib.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/config.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/reent.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_types.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_types.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/lock.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/malloc.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/strings.h \
@@ -2561,16 +2569,18 @@ CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyADC_cpp.cpp.obj: ../myAppl
   ../Core/Inc/dac.h \
   ../Core/Inc/adc.h \
   ../Core/Inc/tim.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/malloc.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/newlib.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/config.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/reent.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_types.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_types.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/lock.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/malloc.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/strings.h \
@@ -2811,6 +2821,8 @@ CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyBlueTooth.cpp.obj: ../myAp
   ../Core/Inc/dac.h \
   ../Core/Inc/adc.h \
   ../Core/Inc/tim.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/malloc.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/malloc.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/strings.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/string.h \
@@ -2907,16 +2919,18 @@ CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyDAC.cpp.obj: ../myApplcati
   ../Core/Inc/dac.h \
   ../Core/Inc/adc.h \
   ../Core/Inc/tim.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/malloc.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/newlib.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/config.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/reent.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_types.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_types.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/lock.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/malloc.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/strings.h \
@@ -3045,16 +3059,18 @@ CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyFFT.cpp.obj: ../myApplcati
   ../Core/Inc/dac.h \
   ../Core/Inc/adc.h \
   ../Core/Inc/tim.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/malloc.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/newlib.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/config.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/reent.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_types.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_types.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/lock.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/malloc.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/strings.h \
@@ -3184,16 +3200,18 @@ CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyKey.cpp.obj: ../myApplcati
   ../Core/Inc/dac.h \
   ../Core/Inc/adc.h \
   ../Core/Inc/tim.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/malloc.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/newlib.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/config.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/reent.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_types.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_types.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/lock.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/malloc.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/strings.h \
@@ -3323,16 +3341,18 @@ CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyLCD.cpp.obj: ../myApplcati
   ../Core/Inc/dac.h \
   ../Core/Inc/adc.h \
   ../Core/Inc/tim.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/malloc.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/newlib.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/config.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/reent.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_types.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_types.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/lock.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/malloc.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/strings.h \
@@ -3569,16 +3589,18 @@ CMakeFiles/templateDevelopment.elf.dir/myApplcation/MySchedule.cpp.obj: ../myApp
   ../Core/Inc/dac.h \
   ../Core/Inc/adc.h \
   ../Core/Inc/tim.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/malloc.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/newlib.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/config.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/reent.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_types.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_types.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/lock.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/malloc.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/strings.h \
@@ -3693,16 +3715,18 @@ CMakeFiles/templateDevelopment.elf.dir/myApplcation/MyUsart.cpp.obj: ../myApplca
   ../Core/Inc/dac.h \
   ../Core/Inc/adc.h \
   ../Core/Inc/tim.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/malloc.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/newlib.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/config.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/reent.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_types.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_types.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/lock.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/malloc.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/strings.h \
@@ -3825,16 +3849,18 @@ CMakeFiles/templateDevelopment.elf.dir/myApplcation/Mymain.cpp.obj: ../myApplcat
   ../Core/Inc/dac.h \
   ../Core/Inc/adc.h \
   ../Core/Inc/tim.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/malloc.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/newlib.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/config.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/reent.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_types.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_types.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/lock.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/malloc.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/strings.h \
@@ -3971,6 +3997,146 @@ CMakeFiles/templateDevelopment.elf.dir/myApplcation/Mymain.cpp.obj: ../myApplcat
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/errno.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/charconv.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/basic_string.tcc
+
+CMakeFiles/templateDevelopment.elf.dir/myApplcation/_DataProcessing.cpp.obj: ../myApplcation/\ DataProcessing.cpp \
+  ../myApplcation/\ DataProcessing.h \
+  ../myApplcation/Myapplication.h \
+  ../Core/Inc/main.h \
+  ../Core/Inc/stm32f4xx_hal.h \
+  ../Core/Inc/stm32f4xx_hal_conf.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
+  ../Drivers/CMSIS/Include/core_cm4.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
+  ../Drivers/CMSIS/Include/cmsis_version.h \
+  ../Drivers/CMSIS/Include/cmsis_compiler.h \
+  ../Drivers/CMSIS/Include/cmsis_gcc.h \
+  ../Drivers/CMSIS/Include/mpu_armv7.h \
+  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+  ../Core/Inc/stm32f4xx_hal.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
+  ../Core/Inc/gpio.h \
+  ../Core/Inc/main.h \
+  ../Core/Inc/usart.h \
+  ../Core/Inc/dac.h \
+  ../Core/Inc/adc.h \
+  ../Core/Inc/tim.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/malloc.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/newlib.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/config.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/reent.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_types.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_types.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/lock.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/malloc.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/strings.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/string.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdio.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/types.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/endian.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_endian.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/select.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_sigset.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_timeval.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/timespec.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_timespec.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_pthreadtypes.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/sched.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/types.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/stdio.h \
+  ../LCD/lcd.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/stdlib.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cstdlib \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++config.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/os_defines.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/cpu_defines.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/pstl/pstl_config.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdlib.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/stdlib.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/alloca.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/std_abs.h \
+  ../LCD/sys.h \
+  ../BSP/touch.h \
+  ../BSP/sys.h \
+  ../BSP/gt9xxx.h \
+  ../BSP/ft5206.h \
+  ../BSP/arm_math.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/math.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cmath \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/cpp_type_traits.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/ext/type_traits.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/math.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/specfun.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/functexcept.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/exception_defines.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/ext/numeric_traits.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_pair.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/move.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/type_traits \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_iterator_base_types.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_iterator_base_funcs.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/concept_check.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/debug/assertions.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_iterator.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/ptr_traits.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/debug/debug.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/predefined_ops.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/limits \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/gamma.tcc \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/special_function_util.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/bessel_function.tcc \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/beta_function.tcc \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/ell_integral.tcc \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/exp_integral.tcc \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/hypergeometric.tcc \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/legendre_function.tcc \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/modified_bessel_func.tcc \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/poly_hermite.tcc \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/poly_laguerre.tcc \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/riemann_zeta.tcc \
+  ../BSP/arm_common_tables.h \
+  ../BSP/arm_math.h \
+  ../BSP/arm_const_structs.h \
+  ../BSP/arm_common_tables.h
 
 CMakeFiles/templateDevelopment.elf.dir/myApplcation/myAdc.c.obj: ../myApplcation/myAdc.c \
   ../myApplcation/myAdc.h \
@@ -4218,6 +4384,8 @@ D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/
 
 ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h:
 
+../myApplcation/\ DataProcessing.cpp:
+
 ../Core/Inc/stm32f4xx_hal.h:
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h:
@@ -4403,6 +4571,10 @@ D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/
 ../Core/Inc/tim.h:
 
 ../myApplcation/Myapplication.h:
+
+D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/malloc.h:
+
+D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/malloc.h:
 
 ../BSP/arm_math.h:
 
@@ -4682,6 +4854,8 @@ D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/
 
 ../myApplcation/Mymain.cpp:
 
-../myApplcation/myAdc.c:
-
 ../myApplcation/seriall_Port.c:
+
+../myApplcation/\ DataProcessing.h:
+
+../myApplcation/myAdc.c:

@@ -168,6 +168,7 @@ uint8_t *MyUsart::ReceiveAgain() {
     memcpy(this->temp,this->re_Buff,RELENTH);
     memset(this->re_Buff,0,RELENTH);
     this->recv_end_flag=0;
+    __HAL_UART_ENABLE_IT(this->huart, UART_IT_IDLE);
     HAL_UART_Receive_DMA(this->huart, re_Buff, RELENTH);
     return temp;
 
